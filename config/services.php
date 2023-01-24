@@ -31,4 +31,8 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
 
+    'test' => [
+        'url' => env('TEST_URL', 'https://atomic.incfile.com/fakepost'),
+    ],
+
 ];
